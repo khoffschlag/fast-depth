@@ -12,7 +12,7 @@ FastDepth
 2. Followed by:
 ```
   sudo apt update && sudo apt install -y libhdf5-serial-dev hdf5-tools
-  pip3 install h5py matplotlib imageio scikit-image opencv-python
+  pip3 install h5py matplotlib imageio scikit-image opencv-python Pillow
   ```
 
 ## Trained Models ##
