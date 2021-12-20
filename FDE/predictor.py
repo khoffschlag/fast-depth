@@ -34,5 +34,5 @@ class Predictor:
 
 
 if __name__ == '__main__':
-    predictor = Predictor(model_path='data_in/mobilenet-nnconv5dw-skipadd-pruned.pth.tar')
-    predictor.run(img_path='data_in/rgb.png', plot=True)
+    predictor = Predictor(model_path='../data_in/mobilenet-nnconv5dw-skipadd-pruned.pth.tar')
+    predictor.run(img_path='../data_in/rgb.png', plot=True)

@@ -30,6 +30,6 @@ def save_pred_image(pred_npy_fp, filename):
     pred_np_color = colored_depthmap(pred_np_2d)
     mp.image.imsave('pred.png', pred_np_color.astype('uint8'))
 
-save_rgb_image('rgb.npy', 'data_in/rgb.png')
-save_depth_image('depth.npy', 'data_in/depth.png')
-save_pred_image('pred.npy', 'data_in/pred.png')
+save_rgb_image('rgb.npy', '../data_in/rgb.png')
+save_depth_image('depth.npy', '../data_in/depth.png')
+save_pred_image('pred.npy', '../data_in/pred.png')

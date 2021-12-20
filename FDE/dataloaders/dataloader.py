@@ -3,7 +3,7 @@ import os.path
 import numpy as np
 import torch.utils.data as data
 import h5py
-import dataloaders.transforms as transforms
+import FDE.dataloaders.transforms as transforms
 
 def h5_loader(path):
     h5f = h5py.File(path, "r")

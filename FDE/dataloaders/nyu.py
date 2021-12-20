@@ -1,6 +1,6 @@
 import numpy as np
-import dataloaders.transforms as transforms
-from dataloaders.dataloader import MyDataloader
+import FDE.dataloaders.transforms as transforms
+from FDE.dataloaders.dataloader import MyDataloader
 
 iheight, iwidth = 480, 640 # raw image size
 
